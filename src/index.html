@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Introduction for Front-end Web Development"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <title>Wisata Nusantara</title>
+  </head>
+
+  <body class="overflow-x-hidden">
+    <header
+      class="bg-[url('/src/assets/bg-hero.png')] h-screen w-screen bg-cover bg-center bg-fixed bg-no-repeat"
+    >
+      <nav class="flex items-center px-40">
+        <img
+          src="assets/Logo.png"
+          alt="Logo Wisata Nusantara"
+          width="95"
+          height="95"
+          class="mr-14"
+        />
+        <ul class="flex gap-x-14">
+          <li class="text-xl">Home</li>
+          <li class="text-xl">About Us</li>
+          <li class="text-xl">Packages</li>
+          <li class="text-xl">Contact Us</li>
+        </ul>
+        <div class="flex ml-auto gap-x-14 items-center">
+          <button class="text-xl font-semibold">Sign Up</button>
+          <button
+            class="border border-[#DC602A] rounded-[31.5px] py-2 px-10 text-xl font-semibold"
+          >
+            Log In
+          </button>
+          <div>
+            <img
+              src="assets/icon-search.svg"
+              alt="Search"
+              width="29"
+              height="23"
+            />
+          </div>
+        </div>
+      </nav>
+      <div class="flex h-[80vh] justify-center items-center gap-x-[15vh]">
+        <div class="">
+          <h1 class="text-white text-[6rem] font-bold">
+            Introduce <br />Wisnu.
+          </h1>
+          <p class="text-white font-semibold text-2xl">Teman Perjalanan kamu</p>
+        </div>
+        <div>
+          <button
+            class="bg-[#DC602A] flex items-center py-3 px-5 rounded-[20px] border-2 border-white text-white text-xl font-medium"
+          >
+            <div>Explore More</div>
+            <div class="mt-auto">
+              <img src="assets/icon-arrow-right.svg" class="ml-2" />
+            </div>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- About Us Section -->
+      <section class="h-screen flex bg-[#F9F9F9]">
+        <div class="max-w-xs">
+          <img src="assets/wisnu_half.png" />
+        </div>
+        <div class="flex flex-col items-end px-32 py-24">
+          <h1
+            class="font-bold text-6xl mb-14 bg-custom-gradient text-transparent bg-clip-text inline-block pb-3"
+          >
+            Tentang Wisnu
+          </h1>
+          <p class="text-lg max-w-4xl text-justify pb-14">
+            <b>Wisata Nusantara</b> atau <b>Wisnu</b> merupakan sebuah platform
+            aplikasi yang tidak hanya menawarkan wawasan nusantara dan latar
+            belakang destinasi yang mereka kunjungi, tetapi juga Wisnu
+            memberikan rekomendasi rencana perjalanan sesuai preferensi
+            wisatawan. Kami percaya dengan mempromosikan pariwisata dan
+            memberikan pengalaman yang lebih mendalam, kami dapat membantu para
+            wisatawan menemukan destinasi yang baru dan seru, juga menciptakan
+            dampak positif pada lingkungan dan komunitas lokal. Wisnu memiliki
+            penekanan yang lebih kuat dengan mempromosikan destinasi wisata yang
+            kurang diketahui oleh wisatawan di Indonesia, menyediakan
+            rekomendasi untuk beberapa destinasi yang saling berdekatan,
+            sehingga dapat dengan dekat ditempuh, dan menghubungkan wisatawan
+            dengan pemandu lokal. Hal ini dapat menjadi nilai yang unik untuk
+            pengguna dalam mencari pengalaman perjalanan yang beda dan otentik.
+          </p>
+          <button
+            class="border-[3px] border-[#DC602A] rounded-[20px] self-start px-[4.375rem] py-2 text-[1.625rem] font-medium"
+          >
+            Download the Apps
+          </button>
+        </div>
+      </section>
+      <!-- About Us Section -->
+
+      <!-- Visi & Misi Section -->
+      <section class="h-screen relative">
+        <div class="absolute left-0 top-20">
+          <img src="assets/circle_vm.svg" width="300" />
+        </div>
+        <div class="grid h-screen place-items-center">
+          <div class="text-center">
+            <h1
+              class="font-bold text-6xl bg-custom-gradient text-transparent bg-clip-text inline-block pb-10"
+            >
+              VISI
+            </h1>
+            <p class="mb-10 text-xl max-w-2xl mx-auto">
+              Menjadi mitra terpercaya bagi para wisatawan dalam menjelajahi
+              keindahan Indonesia,dengan memberikan informasi, kemudahan,
+              keamanan dan kenyamanan.
+            </p>
+            <h1
+              class="font-bold text-6xl bg-custom-gradient text-transparent bg-clip-text inline-block pb-10"
+            >
+              MISI
+            </h1>
+            <div class="max-w-2xl mx-auto">
+              <p class="text-xl">1. Membangun Komunitas Perjalanan</p>
+              <p class="text-xl">
+                2. Menghubungkan Traveler dengan Pemandu dan penyelenggara open
+                trip yang berpengalaman dan terpercaya
+              </p>
+              <p class="text-xl">
+                3. Mengutamakan Keamanan dan Kepuasan Pelanggan
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="absolute right-0 bottom-0 translate-y-[45vh]">
+          <img src="assets/circle_vm_reverse.svg" width="300" />
+        </div>
+      </section>
+      <!-- Visi & Misi Section -->
+
+      <!-- Sejarah Section -->
+      <section class="pt-[30vh] relative">
+        <div class="px-[15%]">
+          <h1
+            class="font-bold text-6xl mb-14 bg-custom-gradient text-transparent bg-clip-text inline-block pb-3"
+          >
+            Sejarah Wisnu
+          </h1>
+          <div class="flex gap-x-[10vw]">
+            <p class="max-w-xl text-justify">
+              Kisah Wisnu dimulai dari salah satu program Kampus Merdeka dengan
+              jenis kegiatan Studi Independen yang diadakan oleh
+              Kemendikbudristek yaitu
+              <a href="#" class="underline cursor-pointer"
+                >Bangkit Academy 2023 Batch 1.</a
+              >
+              Program ini memiliki dukungan dari perusahaan ternama seperti
+              Google, GoTo, Traveloka, dan Dicoding. Dalam program ini setiap
+              peserta diberikan proyek Capstone yang terdiri dari 6 anggota tim.
+              Mereka harus menggabungkan pengetahuan dari tiga jalur
+              pembelajaran yang berbeda yang telah mereka pilih selama mengikuti
+              Bangkit Academy, yaitu Machine Learning, Mobile Development, dan
+              Cloud Computing. <br /><br />
+              Wisnu berhasil masuk ke dalam daftar 20 besar proyek Product
+              Capstone terbaik, dan meraih dana investasi sebesar USD $10.000
+              dari Google dan Kemendikbudristek. Selama perjalanan ini, Wisnu
+              terus mengembangkan ide-ide inovatif dan berusaha menemukan solusi
+              untuk tantangan berkelanjutan. Seiring berjalannya waktu, kami
+              selalu berusaha memperbarui layanan kami sesuai dengan kebutuhan
+              pengguna yang terus berkembang.
+            </p>
+            <img src="assets/history_wisnu.png" width="400" />
+          </div>
+        </div>
+        <div class="absolute left-0 -translate-y-[20%]">
+          <img src="assets/circle_history.svg" alt="" width="250" />
+        </div>
+      </section>
+      <!-- Sejarah Section -->
+
+      <!-- Definisi Logo Section -->
+      <section class="pt-[35vh] flex items-center justify-center relative">
+        <div class="translate-y-8">
+          <img src="assets/logo_big.svg" width="500" />
+        </div>
+        <div class="flex flex-col items-end px-32">
+          <h1
+            class="font-bold text-6xl mb-14 bg-custom-gradient text-transparent bg-clip-text inline-block pb-3"
+          >
+            Definisi Logo
+          </h1>
+          <p class="text-lg max-w-2xl text-justify pb-14">
+            <span class="text-[#DC602A] font-medium">Logo Wisnu</span>
+            terinspirasi oleh gambaran kompas, yang melambangkan peran Wisnu
+            dalam membimbing para wisatawan untuk menemukan tujuan liburan
+            terbaik mereka. Warna Oranye cerah mendominasi WIsnu dengan makna
+            <span class="text-[#DC602A] font-medium">"Full of Life"</span>.
+            Makna ini menggambarkan semangat, kegembiraan, dan keceriaan dalam
+            pengalaman liburan yang kami tawarkan. Logo ini mencerminkan
+            komitmen kami untuk memberikan pengalaman liburan yang memenuhi
+            kehidupan dengan kenangan yang penuh semangat dan kebahagiaan kepada
+            setiap pengguna. Ini adalah simbol dari energi dan kegairahan dalam
+            menjalani petualangan wisata, serta harapan kami agar setiap
+            pelanggan merasa hidup dan bersemangat selama perjalanan mereka
+            bersama kami.
+          </p>
+        </div>
+        <div class="absolute right-0 bottom-0 translate-y-[55vh]">
+          <img src="assets/circle_vm_reverse.svg" width="300" />
+        </div>
+      </section>
+      <!-- Definisi Logo Section -->
+
+      <!-- Why Choose Us Section -->
+      <section class="relative pt-[30vh] w-full">
+        <div class="flex items-center pl-32">
+          <div class="w-4/12">
+            <img
+              src="assets/choose_us_assets.png"
+              alt="Assets Wisata Nusantara"
+              width="400"
+            />
+          </div>
+          <div class="w-8/12 ml-auto">
+            <div class="text-end pr-[9rem]">
+              <h1
+                class="font-bold text-6xl mb-14 bg-custom-gradient text-transparent bg-clip-text inline-block pb-3"
+              >
+                “Why Choose Us?”
+              </h1>
+            </div>
+            <div class="flex flex-col gap-y-8">
+              <div
+                class="p-4 rounded-l-[115px] border-4 border-[#DC602A] border-r-0"
+              >
+                <p>
+                  Rencana Perjalanan yang Dirancang Sesuai dengan Keinginanmu
+                </p>
+              </div>
+              <div
+                class="p-4 rounded-l-[115px] border-4 border-[#DC602A] border-r-0 translate-x-16"
+              >
+                <p>Pembuatan Open Trip yang Profesional</p>
+              </div>
+              <div
+                class="p-4 rounded-l-[115px] border-4 border-[#DC602A] border-r-0 translate-x-6"
+              >
+                <p>Pemandu Wisata Lokal yang Berdasarkan pada Preferensimu</p>
+              </div>
+
+              <div
+                class="p-4 rounded-l-[115px] border-4 border-[#DC602A] border-r-0 translate-x-16"
+              >
+                <p>Kemudahan Kustomisasi dan Berbagi Rencana Perjalanan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="absolute top-[75vh] -z-50">
+          <img src="assets/choose_us_circle.svg" alt="" width="450" />
+        </div>
+      </section>
+      <!-- Why Choose Us Section -->
+
+      <!-- Trip Section -->
+      <section class="relative">
+        <div class="absolute right-0 top-[30%] -z-50">
+          <img src="assets/trip_circle.svg" alt="" width="350" />
+        </div>
+        <div>
+          <h1
+            class="font-bold text-6xl mb-14 bg-custom-gradient text-transparent bg-clip-text inline-block pb-3 pl-40 pt-[50vh]"
+          >
+            “Our Top Trip <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Catagory”
+          </h1>
+        </div>
+        <div class="grid grid-flow-col gap-x-6">
+          <!-- Card -->
+          <div>
+            <div
+              class="max-w-[20rem] h-96 rounded-[80px] overflow-hidden shadow-2xl border-[1px] border-[#DC602A] bg-[url('/src/assets/trip1.jpg')]"
+            >
+              <div class="flex items-end pb-8 h-full">
+                <div
+                  class="text-center text-2xl text-white w-full mx-4 py-2 rounded-[36px]"
+                  style="
+                    background: linear-gradient(
+                      97.29deg,
+                      #dc602a 34.16%,
+                      #05a8aa 208.27%
+                    );
+                  "
+                >
+                  <div class="flex items-center justify-center gap-x-4">
+                    <img src="assets/icon_hutan.svg" alt="" />
+                    <h1>Hutan</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div>
+            <div
+              class="max-w-[20rem] h-96 rounded-[80px] overflow-hidden shadow-2xl border-[1px] border-[#DC602A] bg-[url('/src/assets/trip1.jpg')]"
+            >
+              <div class="flex items-end pb-8 h-full">
+                <div
+                  class="text-center text-2xl text-white w-full mx-4 py-2 rounded-[36px]"
+                  style="
+                    background: linear-gradient(
+                      97.29deg,
+                      #dc602a 34.16%,
+                      #05a8aa 208.27%
+                    );
+                  "
+                >
+                  <div class="flex items-center justify-center gap-x-4">
+                    <img src="assets/icon_hutan.svg" alt="" />
+                    <h1>Hutan</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div>
+            <div
+              class="max-w-[20rem] h-96 rounded-[80px] overflow-hidden shadow-2xl border-[1px] border-[#DC602A] bg-[url('/src/assets/trip1.jpg')]"
+            >
+              <div class="flex items-end pb-8 h-full">
+                <div
+                  class="text-center text-2xl text-white w-full mx-4 py-2 rounded-[36px]"
+                  style="
+                    background: linear-gradient(
+                      97.29deg,
+                      #dc602a 34.16%,
+                      #05a8aa 208.27%
+                    );
+                  "
+                >
+                  <div class="flex items-center justify-center gap-x-4">
+                    <img src="assets/icon_hutan.svg" alt="" />
+                    <h1>Hutan</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div>
+            <div
+              class="max-w-[20rem] h-96 rounded-[80px] overflow-hidden shadow-2xl border-[1px] border-[#DC602A] bg-[url('/src/assets/trip1.jpg')]"
+            >
+              <div class="flex items-end pb-8 h-full">
+                <div
+                  class="text-center text-2xl text-white w-full mx-4 py-2 rounded-[36px]"
+                  style="
+                    background: linear-gradient(
+                      97.29deg,
+                      #dc602a 34.16%,
+                      #05a8aa 208.27%
+                    );
+                  "
+                >
+                  <div class="flex items-center justify-center gap-x-4">
+                    <img src="assets/icon_hutan.svg" alt="" />
+                    <h1>Hutan</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div>
+            <div
+              class="max-w-[20rem] h-96 rounded-[80px] overflow-hidden shadow-2xl border-[1px] border-[#DC602A] bg-[url('/src/assets/trip1.jpg')]"
+            >
+              <div class="flex items-end pb-8 h-full">
+                <div
+                  class="text-center text-2xl text-white w-full mx-4 py-2 rounded-[36px]"
+                  style="
+                    background: linear-gradient(
+                      97.29deg,
+                      #dc602a 34.16%,
+                      #05a8aa 208.27%
+                    );
+                  "
+                >
+                  <div class="flex items-center justify-center gap-x-4">
+                    <img src="assets/icon_hutan.svg" alt="" />
+                    <h1>Hutan</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+      </section>
+      <!-- Trip Section -->
+
+      <!-- Showcase Apps Section -->
+      <section class="relative py-[50vh]">
+        <div class="absolute -z-50 -translate-y-52">
+          <img src="assets/showcase_circle.svg" alt="" width="300" />
+        </div>
+        <div class="px-60">
+          <!-- Showcase 1 -->
+          <div class="pb-[40vh]">
+            <div class="flex gap-x-24">
+              <div>
+                <img src="assets/showcase1.png" alt="" width="500" />
+              </div>
+              <div>
+                <h1 class="font-bold text-7xl">
+                  Kenalin, <br />
+                  <span class="text-[#DC602A]">Wisnu.</span>
+                </h1>
+                <p class="font-semibold text-4xl mt-4">
+                  Yang akan menemani jalan-jalan kamu.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-x-24 pt-6">
+              <div class="text-end">
+                <h1 class="font-bold text-7xl">
+                  Cari destinasi <br />
+                  <span class="text-[#DC602A]">Liburan</span>
+                </h1>
+                <p class="font-semibold text-4xl mt-4">
+                  mau kemana liburan selanjutnya? Cari di Wisnu aja!
+                </p>
+              </div>
+              <div>
+                <img src="assets/showcase1_2.png" alt="" width="500" />
+              </div>
+            </div>
+          </div>
+          <!-- Showcase 1 -->
+
+          <!-- Showcase 2 -->
+          <div class="pb-[40vh]">
+            <div class="flex gap-x-24">
+              <div>
+                <img src="assets/showcase2.png" alt="" width="500" />
+              </div>
+              <div>
+                <h1 class="font-bold text-7xl">
+                  Eksplor destinasi yang
+                  <span class="text-[#DC602A]">baru</span>
+                </h1>
+                <p class="font-semibold text-4xl mt-4">
+                  Jelajahi beragam kategori destinasi di Wisnu
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-x-24 pt-6">
+              <div class="text-end">
+                <h1 class="font-bold text-7xl">
+                  Atur
+                  <span class="text-[#DC602A]">trip</span><br />
+                  kamu
+                </h1>
+                <p class="font-semibold text-4xl mt-4">
+                  Mulai dari destinasi, durasi, berapa budgetnya di Wisnu
+                </p>
+              </div>
+              <div>
+                <img src="assets/showcase2_2.png" alt="" width="500" />
+              </div>
+            </div>
+          </div>
+          <!-- Showcase 2 -->
+
+          <!-- Showcase 3 -->
+          <div class="flex gap-x-24">
+            <div>
+              <img src="assets/showcase3.png" alt="" width="500" />
+            </div>
+            <div>
+              <h1 class="font-bold text-7xl">
+                Bagikan
+                <span class="text-[#DC602A]">trip</span><br />
+                kamu
+              </h1>
+              <p class="font-semibold text-4xl mt-4">
+                Ajak teman, keluarga, atau orang lain untuk liburan bareng!
+              </p>
+            </div>
+          </div>
+          <!-- Showcase 3 -->
+        </div>
+        <div class="absolute bottom-0 -z-50 translate-y-20">
+          <img src="assets/showcase_circle.svg" alt="" width="300" />
+        </div>
+      </section>
+      <!-- Showcase Apps Section -->
+
+      <!-- Get App Section -->
+      <section class="relative pt-16">
+        <div class="absolute top-0 left-[25%] -z-50">
+          <img src="assets/get_app_circle1.svg" alt="" width="300" />
+        </div>
+        <div class="absolute bottom-0 left-0 -translate-x-24 -z-50">
+          <img src="assets/get_app_circle1.svg" alt="" width="300" />
+        </div>
+        <div class="flex items-center">
+          <div>
+            <img src="assets/apps_wisnu.png" alt="" width="700" />
+          </div>
+          <div
+            class="ml-auto pr-[22rem] pl-20 py-24 rounded-l-[110px]"
+            style="
+              background: rgba(255, 255, 255, 0.22);
+              box-shadow: 0px -1px 13.2px 0px rgba(0, 0, 0, 0.25);
+              backdrop-filter: blur(139.35000610351562px);
+              border: 1px solid #dc602a;
+              border-right: none;
+            "
+          >
+            <h1 class="font-bold text-6xl mb-8">
+              Say Hello to <br />
+              <span class="text-[#DC602A]">Wisnu.</span>
+            </h1>
+            <p>
+              Wisnu offers
+              <span class="text-[#DC602A]">more immersive</span> <br />
+              travel experiences by downloading our app.
+            </p>
+            <button
+              class="bg-[#DC602A] border-2 border-[#FFAE8B] rounded-[30px] flex text-white py-2 px-4 items-center gap-x-2 mt-16 ml-8"
+            >
+              <div>
+                <img src="assets/icon_arrow_left.svg" alt="" />
+              </div>
+              <div>Get App</div>
+            </button>
+          </div>
+        </div>
+        <div class="absolute bottom-0 right-0 -z-40">
+          <img src="assets/get_app_circle3.svg" alt="" width="300" />
+        </div>
+      </section>
+      <!-- Get App Section -->
+    </main>
+
+    <footer
+      style="
+        background: linear-gradient(
+          248deg,
+          rgba(194, 194, 194, 0.86) 32.74%,
+          rgba(255, 255, 255, 0.55) 86.25%
+        );
+      "
+      class="pb-8"
+    >
+      <div class="grid grid-cols-4 px-28 pt-28 pb-14 justify-items-center">
+        <!-- Logo -->
+        <div>
+          <img
+            src="assets/logo_wisnu_text.png"
+            alt="Logo With Text"
+            width="300"
+          />
+        </div>
+        <!-- Logo -->
+
+        <!-- Tentang Wisnu -->
+        <div>
+          <h2 class="text-[#DC602A] font-bold text-2xl mb-8">Tentang Wisnu</h2>
+          <p class="text-lg font-medium mb-8">Kebijakan Privasi</p>
+          <p class="text-lg font-medium">Syarat dan Ketentuan</p>
+        </div>
+        <!-- Tentang Wisnu -->
+
+        <!-- Hubungi Wisnu -->
+        <div>
+          <h2 class="text-[#DC602A] font-bold text-2xl mb-8">Hubungi Wisnu</h2>
+
+          <p class="text-lg font-medium mb-2">
+            Layanan Pengaduan <br />
+            Konsumen Wisnu
+          </p>
+          <p>+628xxxxxxxxx</p>
+          <p class="font-medium text-lg mt-5">Email</p>
+          <p>
+            wisnusocialnetwork<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@gmail.com/
+          </p>
+          <p class="font-medium text-lg mt-5">Bisnis & Kerja Sama</p>
+          <p>
+            wisnusocialnetwork<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@gmail.com/
+          </p>
+        </div>
+        <!-- Hubungi Wisnu -->
+
+        <!-- Social Media Wisnu -->
+        <div>
+          <div class="flex items-center gap-x-16">
+            <!-- Divider -->
+            <div>
+              <img src="assets/line_footer.svg" width="1" />
+            </div>
+            <!-- Divider -->
+            <div>
+              <div class="pb-4">
+                <img
+                  src="assets/googleplay_badge.svg"
+                  alt="Google Play Button"
+                  width="200"
+                />
+              </div>
+              <div class="pb-8">
+                <img
+                  src="assets/appstore_badge.svg"
+                  alt="Google Play Button"
+                  width="200"
+                />
+              </div>
+              <div class="flex items-center gap-x-2 pb-4">
+                <img
+                  src="assets/insta.svg"
+                  alt="Google Play Button"
+                  width="45"
+                />
+                <p>wisnusantara.id</p>
+              </div>
+              <div class="flex items-center gap-x-2">
+                <img
+                  src="assets/linkedin.svg"
+                  alt="Google Play Button"
+                  width="45"
+                />
+                <p>Wisnu</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Social Media Wisnu -->
+      </div>
+      <div class="w-full flex items-center justify-center">
+        <h2>ALL RIGHTS RESERVED 2023</h2>
+      </div>
+    </footer>
+  </body>
+</html>
