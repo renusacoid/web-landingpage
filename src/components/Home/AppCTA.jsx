@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const AppCTA = () => {
   return (
@@ -25,11 +25,11 @@ const AppCTA = () => {
           <div
             className="ml-auto pl-16 py-20 rounded-l-[110px] md:ml-16"
             style={{
-              background: 'rgba(255, 255, 255, 0.22)',
-              boxShadow: '0px -1px 13.2px 0px rgba(0, 0, 0, 0.25)',
-              backdropFilter: 'blur(139.35000610351562px)',
-              border: '1px solid #dc602a',
-              borderRight: 'none',
+              background: "rgba(255, 255, 255, 0.22)",
+              boxShadow: "0px -1px 13.2px 0px rgba(0, 0, 0, 0.25)",
+              backdropFilter: "blur(139.35000610351562px)",
+              border: "1px solid #dc602a",
+              borderRight: "none",
             }}
           >
             <h1 className="font-extrabold text-6xl mb-8 montserrat md:leading-tight">
@@ -39,18 +39,20 @@ const AppCTA = () => {
             <p className="text-xl">
               Wisnu offers
               <span className="text-[#DC602A] font-bold">
-                {' '}
+                {" "}
                 more immersive
-              </span>{' '}
+              </span>{" "}
               <br />
               travel experiences by downloading our app.
             </p>
-            <button className="bg-[#DC602A] border-2 border-[#FFAE8B] rounded-[30px] flex text-white py-2 px-4 items-center gap-x-2 mt-16 ml-8">
-              <div>
-                <img src="assets/icon_arrow_left.svg" alt="" />
-              </div>
-              <div className="montserrat">Get App</div>
-            </button>
+            <a href="#footer">
+              <button className="bg-[#DC602A] border-2 border-[#FFAE8B] rounded-[30px] flex text-white py-2 px-4 items-center gap-x-2 mt-16 ml-8">
+                <div>
+                  <img src="assets/icon_arrow_left.svg" alt="" />
+                </div>
+                <div className="montserrat">Get App</div>
+              </button>
+            </a>
           </div>
         </div>
       </div>

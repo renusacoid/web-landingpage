@@ -9,6 +9,7 @@ const Footer = () => {
           "linear-gradient(248deg, rgba(194, 194, 194, 0.86) 32.74%, rgba(255, 255, 255, 0.55) 86.25%)",
       }}
       className="pb-8"
+      id="footer"
     >
       <div className="grid md:grid-cols-4 px-10 md:px-28 pt-28 pb-14 justify-items-center">
         <div className="mb-8 md:mb-0">
@@ -65,12 +66,15 @@ const Footer = () => {
 
             <div>
               <div className="pb-4">
-                <a href="https://play.google.com/store/apps/details?id=id.wisnusantara.user.release" target="_blank">
-                <img
-                  src="assets/googleplay_badge.svg"
-                  alt="Google Play Button"
-                  width="200"
-                />
+                <a
+                  href="https://play.google.com/store/apps/details?id=id.wisnusantara.user.release"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/googleplay_badge.svg"
+                    alt="Google Play Button"
+                    width="200"
+                  />
                 </a>
               </div>
               <div className="pb-8">
@@ -98,7 +102,7 @@ const Footer = () => {
                 <p>wisnusantara.id</p>
               </a>
               <a
-                className="flex items-center gap-x-2"
+                className="flex items-center gap-x-2 pb-4"
                 href="https://www.linkedin.com/company/wisnu/"
                 target="_blank"
               >
@@ -108,6 +112,18 @@ const Footer = () => {
                   width="45"
                 />
                 <p>Wisnu</p>
+              </a>
+              <a
+                className="flex items-center gap-x-2"
+                href="https://www.tiktok.com/@wisnusantara.id"
+                target="_blank"
+              >
+                <img
+                  src="assets/tiktok_logo.png"
+                  alt="Google Play Button"
+                  width="45"
+                />
+                <p>wisnusantara.id</p>
               </a>
             </div>
           </div>
