@@ -3,6 +3,7 @@ import Nav from '@/components/nav';
 import { data } from 'autoprefixer';
 import Link from 'next/link';
 import React from 'react';
+import Head from 'next/head';
 
 const PrivacyPolicy = () => {
   const headline = [
@@ -18,6 +19,9 @@ const PrivacyPolicy = () => {
   ];
   return (
     <>
+      <Head>
+        <title>Wisnu | Privacy Policy</title>
+      </Head>
       <Nav />
       <div className="pt-8 pb-64">
         <div

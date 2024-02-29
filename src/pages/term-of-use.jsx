@@ -2,6 +2,7 @@ import Footer from '@/components/footer';
 import Nav from '@/components/nav';
 import Link from 'next/link';
 import React from 'react';
+import Head from 'next/head';
 
 const TermOfUse = () => {
   const headline = [
@@ -15,6 +16,9 @@ const TermOfUse = () => {
   ];
   return (
     <>
+      <Head>
+        <title>Wisnu | Term of Use</title>
+      </Head>
       <Nav />
       <div className="pt-8 pb-64">
         <div

@@ -65,11 +65,13 @@ const Footer = () => {
 
             <div>
               <div className="pb-4">
+                <a href="https://play.google.com/store/apps/details?id=id.wisnusantara.user.release" target="_blank">
                 <img
                   src="assets/googleplay_badge.svg"
                   alt="Google Play Button"
                   width="200"
                 />
+                </a>
               </div>
               <div className="pb-8">
                 <a
