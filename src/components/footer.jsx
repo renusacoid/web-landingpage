@@ -12,13 +12,13 @@ const Footer = () => {
     >
       <div className="grid md:grid-cols-4 px-10 md:px-28 pt-28 pb-14 justify-items-center">
         <div className="mb-8 md:mb-0">
-          <Link href={"/"}>
+          <a href="#header">
             <img
               src="assets/logo_wisnu_text.png"
               alt="Logo With Text"
               width="300"
             />
-          </Link>
+          </a>
         </div>
 
         <div className="mb-4 md:mb-0">
@@ -72,28 +72,41 @@ const Footer = () => {
                 />
               </div>
               <div className="pb-8">
-                <img
-                  src="assets/appstore_badge.svg"
-                  alt="Google Play Button"
-                  width="200"
-                />
+                <a
+                  href="https://apps.apple.com/id/app/wisnu/id6473098383"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/appstore_badge.svg"
+                    alt="Google Play Button"
+                    width="200"
+                  />
+                </a>
               </div>
-              <div className="flex items-center gap-x-2 pb-4">
+              <a
+                className="flex items-center gap-x-2 pb-4"
+                href="https://www.instagram.com/wisnusantara.id/"
+                target="_blank"
+              >
                 <img
                   src="assets/insta.svg"
                   alt="Google Play Button"
                   width="45"
                 />
                 <p>wisnusantara.id</p>
-              </div>
-              <div className="flex items-center gap-x-2">
+              </a>
+              <a
+                className="flex items-center gap-x-2"
+                href="https://www.linkedin.com/company/wisnu/"
+                target="_blank"
+              >
                 <img
                   src="assets/linkedin.svg"
                   alt="Google Play Button"
                   width="45"
                 />
                 <p>Wisnu</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>

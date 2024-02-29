@@ -1,8 +1,21 @@
-import Footer from "@/components/footer";
-import Nav from "@/components/nav";
-import React from "react";
+import Footer from '@/components/footer';
+import Nav from '@/components/nav';
+import { data } from 'autoprefixer';
+import Link from 'next/link';
+import React from 'react';
 
 const PrivacyPolicy = () => {
+  const headline = [
+    { id: '#dataCollected', name: 'Data yang dikumpulkan' },
+    { id: '#dataUsage', name: 'Penggunaan Data' },
+    { id: '#datSharing', name: 'Pembagian Data' },
+    { id: '#userControl', name: 'Kontrol Pengguna' },
+    { id: '#dataDeletion', name: 'Penghapusan Data dan Retensi' },
+    { id: '#analyticsTools', name: 'Alat Analitik dan Pelacakan' },
+    { id: '#dataScurity', name: 'Keamanan Data' },
+    { id: '#privacyPolice', name: 'Perubahan Kebijakan Privasi' },
+    { id: '#contact', name: 'Kontak' },
+  ];
   return (
     <>
       <Nav />
@@ -11,7 +24,7 @@ const PrivacyPolicy = () => {
           className="pl-10 md:pl-[18.75rem] flex items-center gap-x-7 py-4"
           style={{
             background:
-              "linear-gradient(272.28deg, rgba(220, 96, 42, 0.83) 34.32%, rgba(220, 96, 42, 0) 98.1%)",
+              'linear-gradient(272.28deg, rgba(220, 96, 42, 0.83) 34.32%, rgba(220, 96, 42, 0) 98.1%)',
           }}
         >
           <div>
@@ -26,21 +39,17 @@ const PrivacyPolicy = () => {
         <div className="flex w-full pl-4 md:pl-[18.75rem] pt-24 gap-x-4 md:gap-x-24">
           <div className="">
             <h1
-              style={{ background: "rgba(6, 6, 6, 0.1)" }}
-              className="px-6 py-2 rounded-xl font-bold"
+              style={{ background: 'rgba(6, 6, 6, 0.1)' }}
+              className="px-6 py-2 my-2 rounded-xl font-bold"
             >
               PENGANTAR
             </h1>
-            <div className="flex flex-col gap-y-10 pt-6 pl-6">
-              <p>Data yang dikumpulkan</p>
-              <p>Penggunaan Data</p>
-              <p>Pembagian Data</p>
-              <p>Kontrol Pengguna</p>
-              <p>Penghapusan Data dan Retensi</p>
-              <p>Alat Analitik dan Pelacakan</p>
-              <p>Keamanan Data</p>
-              <p>Perubahan Kebijakan Privasi</p>
-              <p>Kontak</p>
+            <div className="flex flex-col pl-6">
+              {headline.map((data) => (
+                <Link key={data.id} className="my-2 py-2" href={`${data.id}`}>
+                  {data.name}
+                </Link>
+              ))}
             </div>
           </div>
 
@@ -69,7 +78,9 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h1 className="font-bold text-lg">Data yang Dikumpulkan</h1>
+              <h1 className="font-bold text-lg" id="dataCollected">
+                Data yang Dikumpulkan
+              </h1>
               <p>
                 Kami di Wisnu mengumpulkan berbagai jenis data untuk menyediakan
                 dan meningkatkan layanan kami kepada Anda. Berikut adalah
@@ -126,7 +137,9 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h1 className="font-bold text-lg">Penggunaan Data</h1>
+              <h1 className="font-bold text-lg" id="dataUsage">
+                Penggunaan Data
+              </h1>
               <p>Data yang kami kumpulkan digunakan untuk:</p>
               <ol className="list-inside list-decimal pl-2">
                 <li>
@@ -175,7 +188,9 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h1 className="font-bold text-lg">Pembagian Data</h1>
+              <h1 className="font-bold text-lg" id="datSharing">
+                Pembagian Data
+              </h1>
               <p>
                 Kami menghargai kepercayaan Anda dalam memberikan informasi
                 pribadi Anda dan berkomitmen untuk tidak membagikannya dengan
@@ -221,7 +236,9 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h1 className="font-bold text-lg">Kontrol Pengguna</h1>
+              <h1 className="font-bold text-lg" id="userControl">
+                Kontrol Pengguna
+              </h1>
               <p>
                 Sebagai pengguna aplikasi Wisnu, Anda memiliki kontrol penuh
                 atas informasi pribadi Anda. Kami menyediakan berbagai alat dan
@@ -254,7 +271,7 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h1 className="font-bold text-lg">
+              <h1 className="font-bold text-lg" id="dataDeletion">
                 Penghapusan Data dan Retensi
               </h1>
               <p>
@@ -287,7 +304,9 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h1 className="font-bold text-lg">Alat Analitik dan Pelacakan</h1>
+              <h1 className="font-bold text-lg" id="analyticsTools">
+                Alat Analitik dan Pelacakan
+              </h1>
               <p>
                 Untuk terus meningkatkan aplikasi Wisnu dan layanan yang kami
                 tawarkan, kami menggunakan berbagai alat analitik pihak ketiga.
@@ -316,7 +335,9 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h1 className="font-bold text-lg">Keamanan Data</h1>
+              <h1 className="font-bold text-lg" id="dataScurity">
+                Keamanan Data
+              </h1>
               <p>
                 Di Wisnu, kami memahami bahwa keamanan data Anda adalah
                 prioritas. Kami mengambil langkah-langkah yang komprehensif
@@ -363,7 +384,9 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h1 className="font-bold text-lg">Perubahan Kebijakan Privasi</h1>
+              <h1 className="font-bold text-lg" id="privacyPolice">
+                Perubahan Kebijakan Privasi
+              </h1>
               <p>
                 Kami di Wisnu berkomitmen untuk terus memperbarui dan
                 meningkatkan layanan kami, yang dapat mencakup perubahan pada
@@ -407,7 +430,9 @@ const PrivacyPolicy = () => {
             </div>
 
             <div>
-              <h1 className="font-bold text-lg">Kontak</h1>
+              <h1 className="font-bold text-lg" id="contact">
+                Kontak
+              </h1>
               <p>
                 Jika Anda memiliki pertanyaan, komentar, atau keluhan terkait
                 dengan Ketentuan Penggunaan ini, Anda dapat menghubungi kami
