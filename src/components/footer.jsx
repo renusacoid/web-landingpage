@@ -29,7 +29,7 @@ const Footer = () => {
           <Link href={"/privacy-policy"}>
             <p className="text-lg font-medium md:mb-8">Kebijakan Privasi</p>
           </Link>
-          <Link href={"/term-of-use"}>
+          <Link href={"/terms-of-use"}>
             <p className="text-lg font-medium">Syarat dan Ketentuan</p>
           </Link>
         </div>
