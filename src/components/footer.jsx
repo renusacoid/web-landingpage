@@ -133,7 +133,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full flex items-center justify-center">
-        <h2>ALL RIGHTS RESERVED 2023</h2>
+        <h2>ALL RIGHTS RESERVED 2024</h2>
       </div>
     </footer>
   );

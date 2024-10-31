@@ -19,7 +19,7 @@ const Header = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center content-center md:h-[80vh] pb-12 p-4 md:pb-0">
         <div className="md:justify-self-end">
           <h1 className="montserrat text-white text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[7rem] lg:mr-[-5rem] font-extrabold">
-            Introduce <br />
+            Introducing <br />
             Wisnu.
           </h1>
           <p className="text-white font-medium sm:text-base md:text-lg lg:text-xl xl:text-2xl">
