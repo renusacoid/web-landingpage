@@ -43,18 +43,21 @@ const Footer = () => {
             Layanan Pengaduan <br />
             Konsumen Wisnu
           </p>
-          <p>+628xxxxxxxxx</p>
+          <p><a href="tel:+628816864545">
+                            +628816864545
+                        </a>
+          </p>
           <p className="font-medium text-lg mt-5">Email</p>
           <p>
-            wisnusocialnetwork
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@gmail.com/
+          <a href="mailto:wisnusocialnetwork@gmail.com">
+              wisnusocialnetwork@gmail.com
+            </a>
           </p>
           <p className="font-medium text-lg mt-5">Bisnis & Kerja Sama</p>
           <p>
-            wisnusocialnetwork
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@gmail.com/
+          <a href="mailto:wisnusocialnetwork@gmail.com">
+              wisnusocialnetwork@gmail.com
+            </a>
           </p>
         </div>
 
