@@ -64,7 +64,7 @@ const TermOfUse = () => {
                 Efektif dari 01 Desember 2023
               </p>
               <p className="font-medium text-[#777373]">
-                Diperbarui pada 01 Desember 2023
+                Diperbarui pada 02 September 2024
               </p>
             </div>
 

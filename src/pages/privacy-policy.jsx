@@ -67,7 +67,7 @@ const PrivacyPolicy = () => {
                 Efektif dari 25 November 2023
               </p>
               <p className="font-medium text-[#777373]">
-                Diperbarui pada 23 November 2023
+                Diperbarui pada 02 September 2024
               </p>
             </div>
 
