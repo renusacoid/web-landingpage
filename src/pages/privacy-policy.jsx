@@ -74,8 +74,7 @@ const PrivacyPolicy = () => {
             <div>
               <h1 className="font-bold text-lg">Pengantar</h1>
               <p>
-                Selamat datang di Wisnu, aplikasi yang disediakan oleh PT. Jalan
-                Bareng Wisnu ("kami", "kita", atau "perusahaan"). Ketentuan
+                Selamat datang di Wisnu, aplikasi yang disediakan oleh PT. Ruang Eksplorasi Nusantara ("kami", "kita", atau "perusahaan"). Ketentuan
                 Penggunaan ini mengatur akses dan penggunaan Anda terhadap
                 layanan aplikasi Wisnu ("Layanan").
               </p>

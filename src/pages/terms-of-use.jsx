@@ -71,8 +71,7 @@ const TermOfUse = () => {
             <div>
               <h1 className="font-bold text-lg">Pengantar</h1>
               <p>
-                Selamat datang di Wisnu, aplikasi yang disediakan oleh PT. Jalan
-                Bareng Wisnu ("kami", "kita", atau "perusahaan"). Ketentuan
+                Selamat datang di Wisnu, aplikasi yang disediakan oleh PT. Ruang Eksplorasi Nusantara ("kami", "kita", atau "perusahaan"). Ketentuan
                 Penggunaan ini mengatur akses dan penggunaan Anda terhadap
                 layanan aplikasi Wisnu ("Layanan").
               </p>
@@ -119,7 +118,7 @@ const TermOfUse = () => {
               <p>
                 Anda mengakui bahwa semua hak atas konten, termasuk desain,
                 teks, grafik, logo, ikon, gambar, dan semua materi lainnya,
-                adalah milik PT. Jalan Bareng Wisnu atau pihak ketiga yang
+                adalah milik PT. Ruang Eksplorasi Nusantara atau pihak ketiga yang
                 memberikan lisensi kepada kami. Penggunaan tidak sah atas materi
                 ini dapat melanggar hukum hak cipta, merek dagang, dan
                 undang-undang lainnya.
